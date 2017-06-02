@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MMS-FILE>
+
+    <MMS-FILE-HEADER>
+
+        <MMS-Version>6.3.0</MMS-Version>
+
+        <Content-Type>application/vnd.wap.multipart.related</Content-Type>
+
+        <PresentationId>pres.smil</PresentationId>
+
+        <MultipartRelatedType>application/smil</MultipartRelatedType>
+
+    </MMS-FILE-HEADER>
+
+    <MMS-FILE-Content>
+
+        <ID>pres.smil</ID>
+
+        <Type>application/smil</Type>
+
+        <Length>435</Length>
+
+        <Charset></Charset>
+
+        <OFFSET>1</OFFSET>
+
+    </MMS-FILE-Content>
+
+    <MMS-FILE-Content>
+
+        <ID>mms.jpeg</ID>
+
+        <Type>image/jpeg</Type>
+
+        <Length>6604</Length>
+
+        <Charset></Charset>
+
+        <OFFSET>2</OFFSET>
+
+    </MMS-FILE-Content>
+
+    <!--<MMS-FILE-Content>
+
+        <ID>mms.txt</ID>
+
+        <Type>text/text</Type>
+
+        <Length>659</Length>
+
+        <Charset></Charset>
+
+        <OFFSET>3</OFFSET>
+
+    </MMS-FILE-Content>
+
+    <MMS-FILE-Content>
+
+        <ID>mms.wav</ID>
+
+        <Type>audio/wav</Type>
+
+        <Length></Length>
+
+        <Charset></Charset>
+
+        <OFFSET>4</OFFSET>
+
+    </MMS-FILE-Content>
+-->
+</MMS-FILE>
+
+<smil>
+
+<head>
+
+    <layout>
+
+        <root-layout height="480px" width="640px"/>
+        <region id="image" top="0" left="0" height="25%" width="100%" fit="meet"/>
+       <!-- <region id="text" top="25%" left="0" height="25%" width="100%" fit="meet"/>-->
+
+    </layout>
+
+</head>
+
+<body>
+
+    <par dur="3000ms">
+
+        <img src="file:///android_asset/mms.jpeg" region="image"/>
+     <!--   <text src="mms.txt" region="text"/>
+        <audio src="mms.wav" />-->
+
+    </par>
+
+  <!--  <par dur="3000ms">
+
+        <text src="addtest.txt" region="Reg1"/>
+
+    </par>-->
+
+</body>
+
+</smil>

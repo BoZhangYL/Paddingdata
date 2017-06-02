@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">数据填充</string>
+    <string name="txt_contacts">请输入联系人数量</string>
+    <string name="start_padding">开始填充数据</string>
+    <string name="contact_error">请输入联系人数量</string>
+    <string name="txt_contact_progress">导入联系人进度</string>
+    <string name="performance_data_padding">DORO</string>
+    <string name="factory_reset_padding">Factory</string>
+    <string name="without_function">功能未实现！</string>
+    <string name="progress_ok">填充数据完成！</string>
+    <string name="OK">确认</string>
+    <string name="add_button">添加</string>
+    <string name="alert_sms">改变默认信息应用？</string>
+</resources>
